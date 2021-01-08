@@ -10,13 +10,6 @@
    * 注册特殊实体按钮使得js可以获取对应的onkeypress和onkeyup事件 registerKeyEvent(int keyCode,String keyName)
 3. 扩展创建demo
    ```
-   import android.util.Log;
-   import android.webkit.JavascriptInterface;
-
-   import com.tjj.jsbridge.JSBridgeRequest;
-   import com.tjj.jsbridge.JSBridgeResponse;
-   import com.tjj.jsbridge.abstracts.JSBridgeExtension;
-
    public class Test extends JSBridgeExtension {
        public Test(){
            // 设置扩展别名
