@@ -1,3 +1,5 @@
+apply plugin: 'com.android.library'
+
 plugins {
     id 'com.android.library'
 }
